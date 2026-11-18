@@ -11,9 +11,9 @@ import java.sql.SQLException;
 public class ConexionBD {
 
     private static final String URL = valor("DB_URL",
-            "jdbc:postgresql://localhost:5432/gestion_productos");
+            "jdbc:postgresql://localhost:5432/GestionProductosDB");
     private static final String USUARIO = valor("DB_USER", "postgres");
-    private static final String CLAVE = valor("DB_PASSWORD", "tu_clave");
+    private static final String CLAVE = valor("DB_PASSWORD", "capua");
 
     private static String valor(String variable, String porDefecto) {
         String v = System.getenv(variable);
